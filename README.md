@@ -6,7 +6,8 @@ your server.You can input your username and password if you don't want to use th
 ## Tutorial
 
 ###Install
-
+wget --no-check-certificate -O l2tp https://raw.githubusercontent.com/Happy4Code/ShadowSocksInstallScript/master/L2TPInstallScript.sh
+chmod +x l2tp  ./l2tp  2 > &1 | tee l2tp.log
 Hope this can help
 If you meet any problem, you can email me qiaochenzhi_kk@126.com
 
